@@ -10,9 +10,6 @@ html {
 margin: 0;
 padding: 0;
 }
-*, {
-
-}
 body {
     font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
     font-size: 0.9rem;
@@ -22,7 +19,7 @@ body {
 #header {
     width: 100%;
     min-height: 100vh;
-    background-image: ;
+    background-image: url(../src/mainvisual.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +52,7 @@ li {
     margin-top: 20px;
 }
 #menu .menu-img {
-    background-image: ;
+    background-image:url(../src/menu.jpg) ;
     position: relative;
 }
 .fixed-bg {
