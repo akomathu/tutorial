@@ -39,7 +39,7 @@ nav {
     top: 45%;
     left: 0;
     right: 0;
-    filter: drop-shadow(1px 1px 10px #c0c0c0c);
+    filter: drop-shadow(1px 1px 10px #c0c0c0);
 }
 nav ul {
     display: flex;
@@ -69,7 +69,7 @@ li {
     color: #fff;
     text-align: center;
     font-size: 4.5rem;
-    filter: drop-shadow(1px 1px 10ox #c0c0c0c);
+    filter: drop-shadow(1px 1px 10ox #c0c0c0);
     position: absolute;
     top: 30px ;
 }
@@ -94,9 +94,6 @@ li {
     display: inline-block;
     border-bottom: #e03131;
     margin-bottom: 70px;
-}
-#menu .menu-item dl {
-    fiex-wrap: wrap;
 }
 dl {
     display: block;
