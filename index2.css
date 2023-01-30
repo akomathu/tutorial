@@ -1,0 +1,131 @@
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100% ;
+    box-sizing: border-box;
+    tab-size: 4;
+    word-break: normal;
+    display: block;
+}
+* {
+margin: 0;
+padding: 0;
+}
+*, {
+
+}
+body {
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    display: block;
+}
+#header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 40px;
+    position: relative;
+}
+nav {
+    display: block;
+}
+.site-title {
+    padding: 0 15px;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    filter: drop-shadow(1px 1px 10px #c0c0c0c);
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+nav li {
+    margin-left: 30px;
+}
+li {
+    list-style: none;
+}
+#menu {
+    margin-top: 20px;
+}
+#menu .menu-img {
+    background-image: ;
+    position: relative;
+}
+.fixed-bg {
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.sec-title {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 4.5rem;
+    filter: drop-shadow(1px 1px 10ox #c0c0c0c);
+    position: absolute;
+    top: 30px ;
+}
+#menu .menu-content {
+    display: flex;
+}
+.wrapper{
+    max-width: 1000px;
+    padding: 90px 15px 150px 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+#menu .menu-item {
+    width: 50%;
+    padding: 0 45px;
+}
+#menu .menu-item:first-child {
+    border-right: solid 1px #000;
+}
+.item-title {
+    font-size: 2.5rem;
+    display: inline-block;
+    border-bottom: #e03131;
+    margin-bottom: 70px;
+}
+#menu .menu-item dl {
+    fiex-wrap: wrap;
+}
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+dt {
+    display: block;
+}
+#menu .menu-item dt {
+    width: 87%;
+    text-align: left;
+    border-bottom: dotted 1px #000;
+    margin-bottom: 25px;
+}
+#menu .menu-item dd {
+    width: 5%;
+    text-align: right;
+    padding-top: 8px;
+}
+dd {
+    display: block;
+    margin-inline-start: 40ox;
+}
+div {
+    display: block;
+}
+#menu .menu-item dl.food {
+    margin-bottom: 55px;
+}
